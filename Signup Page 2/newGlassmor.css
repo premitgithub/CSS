@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main {
+    font-family: "Lato", sans-serif;
+}
+footer {
+    font-family: "Lato", sans-serif;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    /*background:linear-gradient(to top right,rgb(232, 203, 207),rgb(218, 87, 218));*/
+    background: url(erriko-boccia-K1dGOGpdLWk-unsplash.jpg);
+    background-size: cover;
+}
+.inner-box {
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+    background: transparent;
+    backdrop-filter: blur(3px);
+}
+.signup-header {
+    font-style: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+.signup-body p {
+    margin: 15px 0;
+}
+.signup-body p label {
+    color: white;
+    display: block;
+    font-weight: bold;
+}
+.signup-body p input {
+    width: 100%;
+    padding: 10px;
+    margin: 3px;
+    border: 2px solid #ffffff69;
+    border-radius: 10px;
+}
+.remember-forgot label{
+    color: white;
+    font-weight: bold;
+}
+.remember-forgot a {
+    padding: 10px;
+    color: white;
+}
+.remember-forgot a:hover {
+    color: rgb(255, 0, 0);
+}
+.remember-forgot p input[type="submit"] {
+    text-align: center;
+    /*font-size: large;*/
+    background-color: #555;
+    border: none;
+    font-size: large;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px black;
+    cursor: pointer;
+    color: white;
+}
+.remember-forgot p input[type="submit"]:hover {
+    background: transparent;
+}
+.signup-footer {
+    margin: 20px 0;
+    color: white;
+}
+.register-link a {
+    color: white;
+    padding: 20px;
+}
+.register-link a:hover {
+    color: red;
+}
